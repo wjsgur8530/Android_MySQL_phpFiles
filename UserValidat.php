@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect('localhost', 'root', 'jj9672@@', 'hyuk');
+    $con = mysqli_connect('localhost', 'DataBase Id', 'DataBase Password', 'DataBase');
     mysqli_query($con, 'SET NAMES utf8'); 
 
     $UserEmail = $_POST["UserEmail"];
